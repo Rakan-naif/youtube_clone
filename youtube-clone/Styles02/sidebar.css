@@ -1,0 +1,30 @@
+.sidebar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 72px;
+    top: 55px;
+    background-color: white;
+    padding-top: 7px;
+    z-index: 200;
+}
+
+.sb-el img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+.sb-el p{
+    font-family: roboto,arial;
+    font-size: 10px;
+}
+.sb-el{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sb-el:hover{
+background-color: rgb(241, 241, 241);
+}
